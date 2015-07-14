@@ -1,0 +1,111 @@
+table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.photo__wrap{
+    padding-bottom: 30px;
+}
+.photo__item{
+    display: block;
+     -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    margin: 0 auto;
+}
+.info__wrap,
+.contacts__wrap{
+    font-family: "BeerRegular";
+}
+.info__wrap{    
+    background-color: #fff;
+    border: 4px dashed #4e1104;   
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+.contacts__wrap{
+    font-size: 20px;
+}
+.social__wrap{
+    margin-left: 65px;
+}
+.social__link{
+   display: inline-block;
+   background-image: url(../img/social.png); 
+   width: 47px;
+   height: 47px; 
+   margin-left: 15px;      
+}
+.social__link:first-child{
+    margin-left: 0;
+}
+.social__link.vk{
+   background-position: 0 0;
+}
+.social__link.github{
+   background-position: 47px 0;
+}
+.social__link.vk:hover{
+   background-position: 0 -47px;
+}
+.social__link.github:hover{
+   background-position: 47px -47px;
+}
+.social__item{
+    display: block;
+    margin-left: 30px;
+}
+.max__pl {
+    padding-left: 70px;    
+}
+.min__pl{
+    padding-left: 15px;
+}
+.big__size{
+    font-size: 24px;
+}
+.color__red{
+    color: #bb1010;
+}
+.skills__list{
+    padding: 0;
+}
+.skills__list .skills__item{
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+.skills__logo{
+    display: inline-block;
+    background-image: url(../img/skills/all_skills.png);
+    padding-right: 30px;
+}
+.skills__logo.html5{
+    background-position: 0 0; width: 40px; height: 56px;
+}
+.skills__logo.css3{
+    background-position: -42px 0; width: 39px; height: 56px;
+}
+.skills__logo.js{
+    background-position: -83px 0; width: 56px; height: 56px;
+}
+.skills__logo.jquery{
+    background-position: -141px 0; width: 56px; height: 56px;
+}
+.skills__logo.php_mysql{
+    background-position: -199px 0; width: 54px; height: 56px;
+}
+.skills__logo.git{
+    background-position: -255px 0; width: 56px; height: 56px;
+}
+.skills__logo.gulp{
+    background-position: -312px 0; width: 60px; height: 56px;
+}
+.skills__logo.sass{
+    background-position: -375px 0; width: 56px; height: 56px;
+}
+.skills__logo.jade{
+    background-position: -433px 0; width: 56px; height: 56px;
+}
+.skills__logo.bootstrap{
+    background-position: -491px 0; width: 56px; height: 56px;
+}

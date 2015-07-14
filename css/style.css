@@ -1,0 +1,45 @@
+/* line 1, ../sass/style.scss */
+body {
+  background: url(../img/bg.png) repeat;
+  height: 100%;
+}
+
+/* line 5, ../sass/style.scss */
+.navigation__list {
+  margin-bottom: 100px;
+    margin-left: 30%;
+    
+}
+
+/* line 8, ../sass/style.scss */
+.navigation__item {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 14, ../sass/style.scss */
+.navigation__link {
+  font-family: "BeerRegular";
+  color: #4e1104;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* line 20, ../sass/style.scss */
+.navigation__link:hover{
+  border-width: 0px 0px 15px;
+  -moz-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  -webkit-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  -o-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  border-image: url(../img/pencil.png) 0 0 123 fill stretch;
+}
+.active{
+  border-width: 0px 0px 15px;
+  -moz-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  -webkit-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  -o-border-image: url(../img/pencil.png) 0 0 123 stretch;
+  border-image: url(../img/pencil.png) 0 0 123 fill stretch;
+}
+
+
